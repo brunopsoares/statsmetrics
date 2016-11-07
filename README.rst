@@ -76,6 +76,7 @@ Convert returned data to JSON format
 
 .. code-block::
 
+    import json
     from statsmetrics import couchbase as couchbasemetrics
     metrics = couchbasemetrics.get_metrics()
     print json.dumps(metrics, ensure_ascii=False)
