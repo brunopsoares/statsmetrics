@@ -8,7 +8,7 @@ with open(path.join(path.abspath(path.dirname(__file__)), 'README.rst'), encodin
 setup(
     name='statsmetrics',
 
-    version='1.0.1',
+    version='1.0.2',
 
     description='List of metrics to use with exporters',
     long_description=long_description,
